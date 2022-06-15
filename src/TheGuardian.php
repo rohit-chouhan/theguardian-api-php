@@ -1,6 +1,7 @@
 <?php
 require_once 'Params.php';
 
+//Main Class
 class TheGuardian extends Params {
     public $api_key;
     public $param = array();
