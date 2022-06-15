@@ -10,7 +10,7 @@ The documentation for the Guardian News API can found [here](http://open-platfor
 To use this client api, first download this gihutb files, and start using.
 ```php
 <?php
-require_once 'vendor/autoload.php';
+    require_once 'vendor/autoload.php';
     $theguardian = new TheGuardian('your_api_key');
 ```
 **methods**
