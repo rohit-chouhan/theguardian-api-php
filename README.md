@@ -1,6 +1,5 @@
 <img width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/1280px-The_Guardian.svg.png"/>
-PHP API Client for The Guardian News.
-
+<p>PHP API Client for The Guardian News.</p>
 
 **Requirements**
 * PHP 5.6.0 or greater
@@ -11,7 +10,7 @@ The documentation for the Guardian News API can found [here](http://open-platfor
 To use this client api, first download this gihutb files, and start using.
 ```php
 <?php
-	require_once 'vendor/autoload.php';
+require_once 'vendor/autoload.php';
     $theguardian = new TheGuardian('your_api_key');
 ```
 **methods**
