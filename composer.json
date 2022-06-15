@@ -1,8 +1,27 @@
 {
-    "autoload": {
-      "classmap": [
-        "src/TheGuardian.php"
-      ]
-    }
+  "name": "rohit-chouhan/theguardian-api-php",
+  "description": "PHP API Client for The Guardian News.",
+  "keywords": [
+    "api", "api-client", "guardiannews", "newsapi", "free"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://gitlab.com/rohit-chouhan/theguardian-api-php",
+  "authors": [{
+    "name": "Rohit Chouhan",
+    "email": "itsrohitofficial@gmail.com",
+    "homepage": "https://rohitchouhan.com"
+  }],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "support": {
+    "issues": "https://gitlab.com/rohit-chouhan/theguardian-api-php/issues",
+    "source": "https://gitlab.com/rohit-chouhan/theguardian-api-php"
+  },
+  "autoload": {
+    "classmap": [
+      "src/TheGuardian.php"
+    ]
   }
-  
+}
